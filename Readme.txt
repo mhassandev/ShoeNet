@@ -1,1 +1,8 @@
-Not yet completed.....
+This documentation describes the uploaded files. There are deep learning based (ShoeNet) models both for age prediction and gender classification including with demo dataset. To compile the given models, we need the following requirements:
+1.	Tensorflow library using python, is the main tool has been used to build this module. 
+2.	TFlearn has been used as front-end-framework for developing the models, TFlearn is a higher-level API to TensorFlow.
+3.	For coding, we used Jupyter notebook, which is an open source web application, and can be used to create and share live code. It can also be used for equation, visualization, numerical simulation, statistical modeling and most importantly for machine learning. 
+4.	All the required libraries should be imported before carrying out the training.
+5.	For training ShoeNet, one need to load the training data with the given path. All the dataset can be accessed given the linked mentioned in our paper “Deep Learning Analysis and Age Prediction from Shoeprints”. All the parameters and the required libraries are given in “ShoeNet_for _age_prediction.ipynb”.
+6.	There are two main model structures, ShoeNet for age prediction, and ShoeNet for gender classification.  They vary in terms of loss function and the number of output neuron/s which is one (1) in case of age prediction, while two (2) for gender classification.
+Note: For demonstration purpose, we uploaded a dataset having 2000 shoeprints which can directly be downloaded.  For unzipping and accessing the demo dataset, the password is available at:  http://wx.f.menshoeslist.com/everen/service/data_open.htm. 
